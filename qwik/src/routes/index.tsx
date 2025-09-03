@@ -4,22 +4,20 @@ import type { DocumentHead } from "@qwik.dev/router";
 export default component$(() => {
   return (
     <>
-      <h1>Hi 👋</h1>
+      <h1>Ross Acheson</h1>
       <div>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
+        Website under construction.
       </div>
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "Ross Acheson",
   meta: [
     {
       name: "description",
-      content: "Qwik site description",
+      content: "Meet Ross :)",
     },
   ],
 };
