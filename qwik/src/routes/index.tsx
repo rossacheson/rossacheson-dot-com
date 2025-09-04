@@ -4,7 +4,7 @@ import type { DocumentHead } from "@qwik.dev/router";
 export default component$(() => {
   return (
     <>
-      <h1>Ross Acheson</h1>
+      <h1 class="text-3xl font-bold underline">Ross Acheson</h1>
       <div>
         Website under construction.
       </div>
