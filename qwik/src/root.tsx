@@ -1,6 +1,7 @@
 import { component$, isDev } from "@qwik.dev/core";
 import { QwikRouterProvider, RouterOutlet } from "@qwik.dev/router";
 import { RouterHead } from "./components/router-head/router-head";
+import { Nav } from "./components/nav";
 
 import "./global.css";
 
@@ -24,8 +25,11 @@ export default component$(() => {
         )}
         <RouterHead />
       </head>
-      <body lang="en">
-        <RouterOutlet />
+      <body lang="en" class="p-4">
+        <Nav />
+        <main class="p-4">
+          <RouterOutlet />
+        </main>
       </body>
     </QwikRouterProvider>
   );

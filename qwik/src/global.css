@@ -1,1 +1,52 @@
 @import "tailwindcss";
+
+:root {
+  --rda-dark-blue: #0052b0;
+  --rda-light-blue: #51a2ff;
+  --rda-dark-green: #004f3d;
+  --rda-light-green: #00c093;
+  --rda-dirty-black: #1d2033;
+  --rda-dark-background: #1d202f;
+  --rda-light-background: #d8dbef;
+  --rda-dark-mode-text: #ffffff;
+  --rda-light-mode-text: #0e0e0e;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+a {
+  color: var(--rda-dark-blue);
+}
+
+a:hover {
+  color: var(--rda-light-blue);
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 1rem 0;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+ul li::marker {
+  color: var(--rda-light-blue);
+}
+
+p {
+  margin: 1rem 0;
+}
