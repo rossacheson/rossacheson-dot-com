@@ -11,7 +11,7 @@
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
-    "build.static": "vite build -c adapters/ssg/vite.config.mts",
+    "build.static": "vite build && vite build -c adapters/ssg/vite.config.mts",
     "build.types": "tsc --incremental --noEmit",
     "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
     "dev": "vite --mode ssr --port 7173",

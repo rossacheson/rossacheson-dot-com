@@ -12,10 +12,10 @@ export default component$(() => {
         <li>Battle-tested full stack software engineer with a slight lean towards front end.</li>
         <li>Angular expert (I'm well over the proverbial 1000 hour threshold)</li>
         <li>Extensive experience with TypeScript, C#, .NET, SQL Server, Qwik</li>
-        <li>Some React Native, Node, Pythong, Java, and PHP</li>
+        <li>Some React Native, Node, Python, Java, and PHP</li>
       </ul>
       <div>
-        <p>Variety of projects under my belt including:</p>
+        <p>I have a variety of projects under my belt including:</p>
         <ul>
           <li>greenfield</li>
           <li>modernization</li>
