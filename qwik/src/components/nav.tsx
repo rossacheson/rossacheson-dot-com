@@ -6,6 +6,7 @@ export const Nav = component$(() => {
       <nav class="flex gap-4">
         <a href="/">Ross Acheson</a>
         <a href="/profile">Profile</a>
+        <a href="/showcase">Showcase</a>
         <a href="/photography">Photography</a>
       </nav>
     </>

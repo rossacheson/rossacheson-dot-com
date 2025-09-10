@@ -11,7 +11,7 @@ export default component$(() => {
       <h2>About me</h2>
       <p>Here are a few things I'd like everyone to know about me:</p>
       <ul>
-        <li>Follower of Jesus</li>
+        <li>Student of Jesus</li>
         <li>Happily married</li>
         <li>Two amazing boys</li>
         <li>Software engineer</li>
